@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int a,s=1,d=1;
+cin>>a;
+s=pow(a,2);
+d=pow(a,3);
+cout<<"s="<<s<<"\n"<<"d="<<d;
+return 0;
+ }

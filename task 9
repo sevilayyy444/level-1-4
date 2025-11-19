@@ -1,0 +1,12 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+    int san,deq=1,saat=1;
+    cin>>san;
+    saat=san/3600;
+    deq=(san-(saat*3600))/60;
+    san=san-(saat*3600)-(deq*60);
+    cout<<saat<<" saat "<<deq<<" deqiqe "<<san<<" saniye";
+    return 0;
+}

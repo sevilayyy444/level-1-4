@@ -1,0 +1,13 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+    int a ,b,cem=0,ferq=0,hasil=1,qismet=1;
+    cin>>a;
+    cin>>b;
+    cem=a+b;
+    ferq=a-b;
+    hasil=a*b;
+    qismet=a/b;
+    return 0;
+}

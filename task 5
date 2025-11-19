@@ -1,0 +1,10 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int c,f=0;
+    cin>>c;
+    f=c*9/5+32;
+    cout<<c<<" selsi "<<f<<" faranheite beraberdir.";
+    return 0;
+}

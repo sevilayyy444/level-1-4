@@ -1,0 +1,11 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int r,s=1,l=1;
+    cin>>r;
+    s=M_PI*pow(r,2);
+    l=2*M_PI*r;
+    cout<<"s="<<s<<"\n"<<"l="<<l;
+    return 0;
+}
