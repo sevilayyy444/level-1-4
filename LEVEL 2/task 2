@@ -1,0 +1,10 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+    int a;
+    cin>>a;
+    string result=(a>0)?" musbetdir":(a==0)?" sifirdir":" menfidir";
+    cout<<"daxil edilen eded"<<result;
+    return 0;
+}

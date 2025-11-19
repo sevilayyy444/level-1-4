@@ -1,0 +1,10 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+    int a;
+    cin>>a;
+    string result=(a%2==0)?" cut ededir":" tek ededdir";
+    cout<<a<<result;
+    return 0;
+}

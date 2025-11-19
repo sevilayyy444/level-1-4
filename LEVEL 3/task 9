@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,c=0;
+    cin>>a;
+    for(int b=1;b<=a;b++){
+        if(a%b==0)c=c+1;
+    }
+    else if(c==2){
+        cout<<"sadedir"<<endl;
+    } else{
+        cout<<"sade deyil"<<endl;
+    }
+    return 0;
+}

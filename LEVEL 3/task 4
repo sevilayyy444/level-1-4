@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b=1;
+    cin>>a;
+    for(int k;k<=a;k++){
+        b=b*k;
+    }
+    cout<<b;
+    return 0;
+}

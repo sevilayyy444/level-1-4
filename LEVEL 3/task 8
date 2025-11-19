@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,c=0,b=0,k=0;
+    cin>>a;
+    k=a;
+    while(a!=0){
+        c=a%10;
+        b=b*10+c;
+        a=a/10;
+    }
+    cout<<k<<" -> "<<b<<endl;
+    return 0;
+}

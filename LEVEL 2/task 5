@@ -1,0 +1,10 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main() {
+    int bal;
+    cin>>bal;
+    string result=(bal>=91)?"A":(bal>=81)&&(bal<=90)?"B":(bal>=71)&&(bal<=80)?"C":(bal>=61)&&(bal<=70)?"D":(bal>=51)&&(bal<=60)?"E":"F";
+    cout<<"sagirdin qiymeti-"<<result;
+    return 0;
+}
