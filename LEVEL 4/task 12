@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,a=0;
+    cin>>n;
+    for (int i=1;i<n;i=i+1){
+        if(n%i==0)a=a+i;
+    }
+    if(a == n){
+        cout<<n<<"mukemmel ededdir";
+    } 
+    else {
+        cout<<n<<"mukemmel eded deyil";
+    }return 0;
+}

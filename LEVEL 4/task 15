@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int x;
+    int mx=-1000000000;
+    while (true){
+        cin>>x;
+        if (x==0) break;
+        if (x>mx)mx=x;
+    }
+    cout<<"En boyuk eded: "<<mx;
+    return 0;
+}

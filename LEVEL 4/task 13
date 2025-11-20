@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int N,x;
+    cin>>N;
+    int a=0,b=0;
+    for (int i=0;i<N;i=i+1){
+        cin>>x;
+        if (i%2==0)a=a+x;
+        else {
+            b=b+x;
+        }
+    }
+    cout<<"Cut indekslerin cemi:"<<a<<endl;
+    cout<<"Tek indekslerin cemi: "<<b<<endl;
+    return 0;
+}
